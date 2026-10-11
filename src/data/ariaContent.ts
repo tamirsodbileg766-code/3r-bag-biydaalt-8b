@@ -1,3 +1,9 @@
+import heroStageImg from '../assets/images/opera_stage_hero_1791726848812.jpg';
+import mozartQueenImg from '../assets/images/mozart_queen_night_1791726863659.jpg';
+import verdiTraviataImg from '../assets/images/verdi_traviata_stage_1791726876099.jpg';
+import bizetCarmenImg from '../assets/images/bizet_carmen_habanera_1791726890602.jpg';
+import pucciniTurandotImg from '../assets/images/puccini_turandot_stage_1791726903232.jpg';
+
 export interface OperaComponentItem {
   id: string;
   name: string;
@@ -72,7 +78,7 @@ export interface QuizQuestion {
   explanation: string;
 }
 
-export const HERO_IMAGE_URL = '/src/assets/images/opera_stage_hero_1791726848812.jpg';
+export const HERO_IMAGE_URL = heroStageImg;
 
 export const ARIA_EMOTIONS: EmotionItem[] = [
   {
@@ -338,7 +344,7 @@ export const FAMOUS_MASTERWORKS: MasterworkItem[] = [
     description:
       '«Шидэт лимбэ» дуурийн Шөнийн хатны ариа маш өндөр, хурдан аялгуугаараа алдартай. Энэ ариаг сопрано дуучдын хамгийн хүнд ариануудын нэгд тооцдог.',
     musicalHighlight: 'Гуравдугаар октавын Фа (F6) хүртэлх маш өндөр стаккато ноотууд болон драмын эрч хүчийг хослуулсан.',
-    imageUrl: '/src/assets/images/mozart_queen_night_1791726863659.jpg',
+    imageUrl: mozartQueenImg,
     accessionCode: 'CAT. 1791 · К. 620',
     premiereYear: '1791 он',
   },
@@ -354,7 +360,7 @@ export const FAMOUS_MASTERWORKS: MasterworkItem[] = [
     description:
       '«Травиата» дуурь нь Виолетта хэмээх залуу бүсгүйн хайр ба хувь заяаны тухай. «Риголетто» дуурьт мөн алдартай ариа олон бий.',
     musicalHighlight: 'Романтик үеийн хүний сэтгэлийн гүн эмгэнэл, хайр дурлал, хувь заяаны зөрчлийг уянгалаг аялгуугаар нээн харуулсан.',
-    imageUrl: '/src/assets/images/verdi_traviata_stage_1791726876099.jpg',
+    imageUrl: verdiTraviataImg,
     accessionCode: 'CAT. 1853 · МИЛАН / ВЕНЕЦ',
     premiereYear: '1851 / 1853 он',
   },
@@ -370,7 +376,7 @@ export const FAMOUS_MASTERWORKS: MasterworkItem[] = [
     description:
       '«Кармен» дуурийн Хабанера нь Кармен хэмээх чөлөөт сэтгэлтэй бүсгүйн хайрын тухай дуулсан ариа бөгөөд аялгуу нь хүн бүрт танил.',
     musicalHighlight: 'Испани-куба бүжгийн хэмнэл дээр хагас шатлалаар (хроматик) уруудах дур булаам аялгуу нь дэлхийд хамгийн танил сэдвүүдийн нэг.',
-    imageUrl: '/src/assets/images/bizet_carmen_habanera_1791726890602.jpg',
+    imageUrl: bizetCarmenImg,
     accessionCode: 'CAT. 1875 · ПАРИС',
     premiereYear: '1875 он',
   },
@@ -386,7 +392,7 @@ export const FAMOUS_MASTERWORKS: MasterworkItem[] = [
     description:
       '«Тоска», «Мадам Баттерфлай», «Турандот» дуурийг бичсэн. «Турандот» дуурийн Nessun dorma нь тенорын хамгийн алдартай ариануудын нэг.',
     musicalHighlight: 'Шөнө дунд ялалт ба найдварыг тунхаглан дуулах тенорын гоцлол бөгөөд төгсгөлийн «Vincerò!» (Би ялна!) өндөр ноотуудаараа алдартай.',
-    imageUrl: '/src/assets/images/puccini_turandot_stage_1791726903232.jpg',
+    imageUrl: pucciniTurandotImg,
     accessionCode: 'CAT. 1926 · ЛА СКАЛА',
     premiereYear: '1926 он',
   },
@@ -395,7 +401,7 @@ export const FAMOUS_MASTERWORKS: MasterworkItem[] = [
 export const QUIZ_QUESTIONS: QuizQuestion[] = [
   {
     id: 1,
-    sectionRef: '3. Ариа гэж юу вэ?',
+    sectionRef: '1. Ариа гэж юу вэ?',
     question: 'Дуурьт ариа дуулах үед тайзан дээрх үйл явдал яадаг вэ?',
     options: [
       'Үйл явдал бараг зогсож, үзэгчид зөвхөн тэр дүрийн сэтгэлд анхаарлаа төвлөрүүлдэг',
@@ -408,7 +414,7 @@ export const QUIZ_QUESTIONS: QuizQuestion[] = [
   },
   {
     id: 2,
-    sectionRef: '3. Ариа гэж юу вэ?',
+    sectionRef: '1. Ариа гэж юу вэ?',
     question: 'Ярианд ойр аялгуугаар дуулж, дуурийн үйл явдлыг урагшлуулдаг хэсгийг юу гэж нэрлэдэг вэ?',
     options: ['Увертюра', 'Речитатив', 'Найрал дуу', 'Трио'],
     correctIndex: 1,
@@ -416,7 +422,7 @@ export const QUIZ_QUESTIONS: QuizQuestion[] = [
   },
   {
     id: 3,
-    sectionRef: '4. Ариагийн үүсэл, хөгжил',
+    sectionRef: '2. Ариагийн үүсэл, хөгжил',
     question: 'Аль үед ариа урт, чимэглэл ихтэй болж, ихэнх ариа эхний хэсгээ төгсгөлд нь давтдаг байсан бэ?',
     options: [
       'Эхэн үе (1600-аад он)',
@@ -429,7 +435,7 @@ export const QUIZ_QUESTIONS: QuizQuestion[] = [
   },
   {
     id: 4,
-    sectionRef: '5. Дуучдын хоолойн төрөл',
+    sectionRef: '3. Дуучдын хоолойн төрөл',
     question: 'Хамгийн нам, хүнд эрэгтэй хоолой аль нь вэ? (Ихэвчлэн ахмад, хаан, хүчтэй дүр дуулдаг)',
     options: ['Тенор', 'Баритон', 'Бас', 'Альт'],
     correctIndex: 2,
@@ -437,7 +443,7 @@ export const QUIZ_QUESTIONS: QuizQuestion[] = [
   },
   {
     id: 5,
-    sectionRef: '6. Алдартай зохиолч, ариа',
+    sectionRef: '4. Алдартай зохиолч, ариа',
     question: '«Шидэт лимбэ» дуурийн маш өндөр, хурдан аялгуутай «Шөнийн хатны ариа»-г хэн бичсэн бэ?',
     options: [
       'Жузеппе Верди (Итали)',
@@ -450,7 +456,7 @@ export const QUIZ_QUESTIONS: QuizQuestion[] = [
   },
   {
     id: 6,
-    sectionRef: '6. Алдартай зохиолч, ариа',
+    sectionRef: '4. Алдартай зохиолч, ариа',
     question: 'Тенорын хамгийн алдартай ариануудын нэг болох «Nessun dorma» нь Жакомо Пуччинийн аль дуурийн ариа вэ?',
     options: ['«Травиата»', '«Кармен»', '«Турандот»', '«Риголетто»'],
     correctIndex: 2,

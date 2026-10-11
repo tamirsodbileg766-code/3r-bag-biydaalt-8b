@@ -219,25 +219,25 @@ export default function App() {
             href="#what-is-aria"
             className="hover:text-[#9A3412] hover:underline underline-offset-4 transition-colors whitespace-nowrap shrink-0"
           >
-            3. Ариа гэж юу вэ?
+            1. Ариа гэж юу вэ?
           </a>
           <a
             href="#history"
             className="hover:text-[#9A3412] hover:underline underline-offset-4 transition-colors whitespace-nowrap shrink-0"
           >
-            4. Үүсэл, хөгжил
+            2. Үүсэл, хөгжил
           </a>
           <a
             href="#voices"
             className="hover:text-[#9A3412] hover:underline underline-offset-4 transition-colors whitespace-nowrap shrink-0"
           >
-            5. Хоолойн төрөл
+            3. Хоолойн төрөл
           </a>
           <a
             href="#masterworks"
             className="hover:text-[#9A3412] hover:underline underline-offset-4 transition-colors whitespace-nowrap shrink-0"
           >
-            6. Алдартай ариа
+            4. Алдартай ариа
           </a>
           <a
             href="#quiz"
@@ -280,7 +280,7 @@ export default function App() {
                 <div className="flex items-center gap-2 text-xs uppercase tracking-widest text-stone-500 mb-4">
                   <span>Хөгжмийн Боловсрол</span>
                   <span aria-hidden="true">·</span>
-                  <span>Бүлэг 3–6</span>
+                  <span>Бүлэг 1–4</span>
                   <span aria-hidden="true">·</span>
                   <span>Сонгодог Дуурийн Судлал</span>
                 </div>
@@ -332,7 +332,7 @@ export default function App() {
           {/* Operational / Curriculum Overview Strip below the hero split */}
           <div className="mt-10 pt-6 border-t border-stone-300 grid grid-cols-2 lg:grid-cols-4 gap-6">
             <div>
-              <div className="text-xs uppercase tracking-wider text-stone-500">Бүлэг 03</div>
+              <div className="text-xs uppercase tracking-wider text-stone-500">Бүлэг 01</div>
               <div className="font-editorial text-xl font-semibold text-stone-900 mt-0.5">
                 Ариа ба Дуурийн 5 хэсэг
               </div>
@@ -341,7 +341,7 @@ export default function App() {
               </div>
             </div>
             <div>
-              <div className="text-xs uppercase tracking-wider text-stone-500">Бүлэг 04</div>
+              <div className="text-xs uppercase tracking-wider text-stone-500">Бүлэг 02</div>
               <div className="font-editorial text-xl font-semibold text-stone-900 mt-0.5">
                 Түүхэн 4 үе шат
               </div>
@@ -350,7 +350,7 @@ export default function App() {
               </div>
             </div>
             <div>
-              <div className="text-xs uppercase tracking-wider text-stone-500">Бүлэг 05</div>
+              <div className="text-xs uppercase tracking-wider text-stone-500">Бүлэг 03</div>
               <div className="font-editorial text-xl font-semibold text-stone-900 mt-0.5">
                 Хоолойн 6 ангилал
               </div>
@@ -359,7 +359,7 @@ export default function App() {
               </div>
             </div>
             <div>
-              <div className="text-xs uppercase tracking-wider text-stone-500">Бүлэг 06</div>
+              <div className="text-xs uppercase tracking-wider text-stone-500">Бүлэг 04</div>
               <div className="font-editorial text-xl font-semibold text-stone-900 mt-0.5">
                 Дэлхийн 4 суут зохиолч
               </div>
@@ -371,19 +371,19 @@ export default function App() {
         </section>
 
         {/* =====================================================================
-            SECTION 3: 3. АРИА ГЭЖ ЮУ ВЭ?
+            SECTION 1: 1. АРИА ГЭЖ ЮУ ВЭ?
            ===================================================================== */}
         <section id="what-is-aria" className="py-14 lg:py-20 border-b border-stone-300">
           <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-4 pb-8 border-b border-stone-200">
             <div>
               <div className="text-xs uppercase tracking-widest text-[#9A3412] font-semibold">
-                03 / Үндсэн Ойлголт ба Дуурийн Бүтэц
+                01 / Үндсэн Ойлголт ба Дуурийн Бүтэц
               </div>
               <h2
                 className="font-editorial text-3xl lg:text-4xl font-semibold text-stone-900 mt-2"
                 style={{ textWrap: 'balance' }}
               >
-                3. Ариа гэж юу вэ?
+                1. Ариа гэж юу вэ?
               </h2>
             </div>
             <p className="text-sm text-stone-600 max-w-md">
@@ -688,19 +688,19 @@ export default function App() {
         </section>
 
         {/* =====================================================================
-            SECTION 4: 4. АРИАГИЙН ҮҮСЭЛ, ХӨГЖИЛ
+            SECTION 2: 2. АРИАГИЙН ҮҮСЭЛ, ХӨГЖИЛ
            ===================================================================== */}
         <section id="history" className="py-14 lg:py-20 border-b border-stone-300">
           <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-4 pb-8 border-b border-stone-200">
             <div>
               <div className="text-xs uppercase tracking-widest text-[#9A3412] font-semibold">
-                04 / Түүхэн Үечлэл (1600-аад он – 19-р зуун)
+                02 / Түүхэн Үечлэл (1600-аад он – 19-р зуун)
               </div>
               <h2
                 className="font-editorial text-3xl lg:text-4xl font-semibold text-stone-900 mt-2"
                 style={{ textWrap: 'balance' }}
               >
-                4. Ариагийн үүсэл, хөгжил
+                2. Ариагийн үүсэл, хөгжил
               </h2>
             </div>
             <p className="text-sm text-stone-600 max-w-md">
@@ -870,19 +870,19 @@ export default function App() {
         </section>
 
         {/* =====================================================================
-            SECTION 5: 5. ДУУЧДЫН ХООЛОЙН ТӨРӨЛ
+            SECTION 3: 3. ДУУЧДЫН ХООЛОЙН ТӨРӨЛ
            ===================================================================== */}
         <section id="voices" className="py-14 lg:py-20 border-b border-stone-300">
           <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-4 pb-8 border-b border-stone-200">
             <div>
               <div className="text-xs uppercase tracking-widest text-[#9A3412] font-semibold">
-                05 / Хоолойн Цараа ба Дүрийн Хуваарилалт
+                03 / Хоолойн Цараа ба Дүрийн Хуваарилалт
               </div>
               <h2
                 className="font-editorial text-3xl lg:text-4xl font-semibold text-stone-900 mt-2"
                 style={{ textWrap: 'balance' }}
               >
-                5. Дуучдын хоолойн төрөл
+                3. Дуучдын хоолойн төрөл
               </h2>
             </div>
             <p className="text-sm text-stone-700 max-w-lg">
@@ -1135,19 +1135,19 @@ export default function App() {
         </section>
 
         {/* =====================================================================
-            SECTION 6: 6. АЛДАРТАЙ ЗОХИОЛЧ, АРИА
+            SECTION 4: 4. АЛДАРТАЙ ЗОХИОЛЧ, АРИА
            ===================================================================== */}
         <section id="masterworks" className="py-14 lg:py-20 border-b border-stone-300">
           <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-4 pb-8 border-b border-stone-200">
             <div>
               <div className="text-xs uppercase tracking-widest text-[#9A3412] font-semibold">
-                06 / Дэлхийн Сонгодог Сан Хөмрөг
+                04 / Дэлхийн Сонгодог Сан Хөмрөг
               </div>
               <h2
                 className="font-editorial text-3xl lg:text-4xl font-semibold text-stone-900 mt-2"
                 style={{ textWrap: 'balance' }}
               >
-                6. Алдартай зохиолч, ариа
+                4. Алдартай зохиолч, ариа
               </h2>
               <p className="text-sm text-stone-600 mt-1">
                 Дэлхийн алдартай дуурийн зохиолчид олон бий. Тэдний зарим алдартай бүтээлийг
@@ -1415,19 +1415,19 @@ export default function App() {
           </div>
           <div className="flex flex-wrap items-center gap-4">
             <a href="#what-is-aria" className="hover:text-stone-900 transition-colors">
-              3. Ариа гэж юу вэ?
+              1. Ариа гэж юу вэ?
             </a>
             <span aria-hidden="true">·</span>
             <a href="#history" className="hover:text-stone-900 transition-colors">
-              4. Үүсэл, хөгжил
+              2. Үүсэл, хөгжил
             </a>
             <span aria-hidden="true">·</span>
             <a href="#voices" className="hover:text-stone-900 transition-colors">
-              5. Хоолойн төрөл
+              3. Хоолойн төрөл
             </a>
             <span aria-hidden="true">·</span>
             <a href="#masterworks" className="hover:text-stone-900 transition-colors">
-              6. Алдартай зохиолч, ариа
+              4. Алдартай зохиолч, ариа
             </a>
           </div>
         </div>
