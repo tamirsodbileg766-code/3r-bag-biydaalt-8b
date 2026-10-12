@@ -277,12 +277,21 @@ export default function App() {
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-stretch">
             <div className="lg:col-span-6 flex flex-col justify-between">
               <div>
-                <div className="flex items-center gap-2 text-xs uppercase tracking-widest text-stone-500 mb-4">
+                <div className="flex items-center gap-2 text-xs uppercase tracking-widest text-stone-500 mb-3">
                   <span>Хөгжмийн Боловсрол</span>
                   <span aria-hidden="true">·</span>
                   <span>Бүлэг 1–4</span>
                   <span aria-hidden="true">·</span>
                   <span>Сонгодог Дуурийн Судлал</span>
+                </div>
+
+                <div className="mb-5 py-2.5 px-3.5 bg-[#F3EFE6] border border-stone-300 rounded-md text-xs text-stone-700">
+                  <span className="font-semibold text-[#9A3412] uppercase tracking-wider mr-2">
+                    Багийн гишүүд:
+                  </span>
+                  <span className="font-medium text-stone-900">
+                    sodoopsda · bugsuu · shijgiin sanaa · e bandia · oroldoh ystoi hun buynaa
+                  </span>
                 </div>
 
                 <h1
