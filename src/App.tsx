@@ -290,7 +290,7 @@ export default function App() {
                     Багийн гишүүд:
                   </span>
                   <span className="font-medium text-stone-900">
-                    sodoopsda · bugsuu · shijgiin sanaa · e bandia · oroldoh ystoi hun buynaa
+                    Содбилэг · Төгсбилэг · Шижирсанаа · Э. Нандин-Эрдэнэ · Буянхишиг
                   </span>
                 </div>
 
